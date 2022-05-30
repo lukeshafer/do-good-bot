@@ -1,4 +1,4 @@
-#Do Good Collective
+# Do Good Collective
 
 This bot is built for the Do Good Collective.
 
