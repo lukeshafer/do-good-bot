@@ -1,0 +1,11 @@
+{
+  "name": "do-good-bot",
+  "version": "1.0.0",
+  "description": "A Bot to aid the Do Good Collective",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Shafer, lukeshafer.com",
+  "license": "ISC"
+}
