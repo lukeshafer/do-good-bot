@@ -4,8 +4,10 @@ import commands from '../commands/_commands';
 export default {
   name: 'interactionCreate',
   async execute(interaction: Interaction) {
+    console.log(
+      `${interaction.user.tag} in #${interaction.channel.name} triggered an interaction.`
+    );
     if (!interaction.isCommand()) return;
-
     const { commandName } = interaction;
     const command = commands.find(
       (command) => command.data.name === commandName
@@ -22,9 +24,5 @@ export default {
         ephemeral: true,
       });
     }
-
-    console.log(
-      `${interaction.user.tag} in #${interaction.channel.name} triggered an interaction.`
-    );
   },
 };
